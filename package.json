@@ -1,0 +1,23 @@
+{
+  "name": "atbi-browser-tester",
+  "version": "1.0.0",
+  "description": "This runs tests on AutoBestInfo portals and web apps.",
+  "scripts": {
+    "start": "./node_modules/.bin/codeceptjs run --steps",
+    "install": "./node_modules/.bin/selenium-standalone install",
+    "start-browser": "./node_modules/.bin/selenium-standalone start"
+  },
+  "author": "Jiangqi Li",
+  "license": "ISC",
+  "dependencies": {
+    "codeceptjs": "^1.1.1",
+    "protractor": "^5.0.0",
+    "codeceptjs-webdriverio": "^1.1.0",
+    "puppeteer": "^0.13.0",
+    "selenium-standalone": "^6.12.0",
+    "unirest": "^0.5.1"
+  },
+  "devDependencies": {
+    "protractor": "^5.0.0"
+  }
+}

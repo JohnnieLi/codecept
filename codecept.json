@@ -1,0 +1,21 @@
+{
+  "tests": "./*_test.js",
+  "timeout": 10000,
+  "output": "./output",
+  "helpers": {
+    "Protractor":{
+      "url": "https://www.driversprite.com",
+      "browser": "chrome",
+      "rootElement":"my-app",
+      "driver": "hosted",
+      "useAllAngular2AppRoots": true
+    }
+  },
+  "include": {
+    "I": "./steps_file.js"
+  },
+  "bootstrap": false,
+  "mocha": {},
+  "name": "codeceptTester"
+  
+}
